@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <head>
+    </head>
+    <body>
+        <style>
+    body{
+    background-color: #48ccfc;
+}
+.mario{
+    position: absolute;
+    left: 885px;
+    top: 60px;
+    }
+    fieldset{
+    background-color: #2e84a3;
+    position: absolute;
+    left: 850px;
+    top: 300px;
+    margin: auto;    
+    padding: 10px;
+    width: 100px;
+    height: 180px;
+    border: 1px solid rgb(135, 125, 125);
+    border-radius:7px;
+    text-align: center;
+    }
+    label {
+    display: block;
+    margin-top: 10px;
+  }
+  input[type="text"],
+  input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 280px;
+    margin-top: 5px;
+  }
+  button[type="submit"]:hover {
+    background-color: #45a049;
+    }
+    a{
+    color: white;
+    text-decoration: none;
+  }
+  .cadastro{
+    position: absolute;
+    left: 870px;
+    top: 440px;
+    font-size: 13px;
+  }
+ .senha{
+  position: absolute;
+  left: 1050px;
+  top: 440px;
+  font-size: 13px;
+ }
+        </style>
+        <div class="mario">
+            <img src="assets/img/mario.png" alt="mario" width="250">
+        </div>
+        <br>
+        <div class="formulario">
+        <form>
+            <fieldset>
+                <label for="username"></label>
+                <input type="text" id="username" name="username" placeholder="usuário" required>
+                <br>
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="senha" required>
+                <br>
+                <button type="submit">Logar</button>
+            </fieldset>
+            <h3 class="cadastro"><a href="cadastro.html">Cadastrar</a></h3>
+            <h3 class="senha"><a href="senha.html">Esqueci a senha</a></h3>
+        </form>
+        </div>
+    </body>
+      
+
+
+   
+</body>
+</html>
