@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esqueci a senha</title>
+</head>
+<body>
+    <style>
+        body{
+    background-color: #48ccfc;
+}
+.mario{
+    position: absolute;
+    left:900px;
+    top: 60px;
+    }
+    fieldset{
+    background-color: #2e84a3;
+    position: absolute;
+    left: 840px;
+    top: 300px;
+    margin: auto;    
+    padding: 10px;
+    width: 350px;
+    height: 190px;
+    border: 1px solid rgb(135, 125, 125);
+    border-radius:7px;
+    text-align: center;
+    }
+    h2{
+        color: white;
+        font-size: 22px;
+    }
+    input[type="email"]{
+        width: 100%;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+    button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 350px;
+    margin-top: 7px;
+  }
+  
+  button[type="submit"]:hover{}
+
+    </style>
+    <div class="mario">
+        <img src="assets/img/mario.png" alt="mario" width="250">
+    </div>
+    <br>
+    <form>
+        <fieldset>
+            <H2>Digite seu e-mail cadastrado para reenviarmos seu email</H2>
+            <label for="Email"></label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <button type="submit">Enviar</button>
+            </form>
+</body>
+</html>
